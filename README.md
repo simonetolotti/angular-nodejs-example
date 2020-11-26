@@ -39,7 +39,7 @@ npm install
 
 ## Build 
 
-retun to home folder...
+return to home folder...
 
 ```
 npm run build
@@ -58,13 +58,38 @@ cd my-app\npm start
 
 ## Execute 
 
-retun to home folder...
+return to home folder...
 
 ```
 npm start
 ```
 
-# Package
+# Deploy
+
+## Package
+
+```
+Copy my-app\dist in a folder
+On the this main folder, copy package.jason, server.bundle.js, server.js
+```
+
+## On Raspberry
+
+create a zip, such as raspberry.zip and copy it on the target:
+
+```
+scp raspberry.zip root@192.168.1.5:/var/www/
+```
+
+From Raspberry shell, unzip it:
+```
+unzip raspberry.zip
+```
+Finally start:
+```
+node server.bundle.js &
+```
+
 
 
 
