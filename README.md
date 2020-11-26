@@ -19,7 +19,7 @@ ng version
 ```
 
 Angular CLI: 11.0.2
-Node: 12.16.1
+Node: 12.14.1
 OS: win32 x64
 
 ## Install Express
@@ -47,22 +47,24 @@ cd my-app
 npm run build
 ```
 
-#Execute 
+# Execute 
 
-##Execute development 
+## Execute development 
 
 ```
 npm run dev
 cd my-app\npm start
 ```
 
-##Execute 
+## Execute 
+
+retun to home folder...
 
 ```
 npm start
 ```
 
-#Package
+# Package
 
 
 
