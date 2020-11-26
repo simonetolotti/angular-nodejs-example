@@ -1,6 +1,8 @@
 # angular-nodejs-example
 Demonstration project on how to develop and run angular project with NodeJS project
 
+# Update
+
 Open on Visual Studio Code, from Powershell
 
 ## Update Angular
@@ -44,5 +46,24 @@ npm run build
 cd my-app
 npm run build
 ```
+
+#Execute 
+
+##Execute development 
+
+```
+npm run dev
+cd my-app\npm start
+```
+
+##Execute 
+
+```
+npm start
+```
+
+#Package
+
+
 
 
